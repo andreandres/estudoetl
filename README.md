@@ -18,16 +18,3 @@ Requests: Para consumo da API REST.
 Pandas: Para manipulação e transformação de dados estruturados.
 
 JSON: Para manipulação de arquivos de dados semi-estruturados.
-
-📁 Organização de Pastas
-Plaintext
-
-estudoetl/
-├── data/           # Camada Raw: Arquivos .json originais da API
-│   ├── products/
-│   └── user/
-├── curated/        # Camada Silver: Arquivos .csv transformados e prontos para análise
-│   ├── products/
-│   └── user/
-├── etl.py          # Script principal com a lógica do processo
-└── README.md       # Documentação do projeto
